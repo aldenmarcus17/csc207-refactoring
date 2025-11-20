@@ -22,8 +22,8 @@ public class StatementPrinter {
      * @throws RuntimeException if one of the play types is not known
      */
     public String statement() {
-        final int volumeCredits = getVolumeCredits();
-        final int totalAmount = getTotalVolumeCredits();
+        final int volumeCredits = getTotalVolumeCredits();
+        final int totalAmount = getTotalAmount();
 
         final StringBuilder result = new StringBuilder("Statement for " + invoice.getCustomer()
                 + System.lineSeparator());
@@ -38,7 +38,7 @@ public class StatementPrinter {
         return result.toString();
     }
 
-    private int getTotalVolumeCredits() {
+    private int getTotalAmount() {
         int result = 0;
         for (Performance p : invoice.getPerformances()) {
             // total amount calculation
@@ -47,7 +47,7 @@ public class StatementPrinter {
         return result;
     }
 
-    private int getVolumeCredits() {
+    private int getTotalVolumeCredits() {
         int result = 0;
         for (Performance p : invoice.getPerformances()) {
             // add volume credits
