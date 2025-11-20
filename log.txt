@@ -1,7 +1,8 @@
-f50628e (HEAD -> main) completed Task 2.3
+528b093 (HEAD -> main, origin/main, origin/HEAD) completed Task 2.4
+f50628e completed Task 2.3
 f8999fe completed Task 2.2
 2961652 completed Task 2.1
 4bd937d updated methods using getPlay()
-2043831 (origin/main, origin/HEAD) completed Task1.2
+2043831 completed Task1.2
 be5b7d6 completed Task 1.1
 2e4ae2c Initial commit
