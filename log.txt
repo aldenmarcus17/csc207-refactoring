@@ -1,3 +1,4 @@
-2043831 (HEAD -> main, origin/main, origin/HEAD) completed Task1.2
+4bd937d (HEAD -> main) updated methods using getPlay()
+2043831 (origin/main, origin/HEAD) completed Task1.2
 be5b7d6 completed Task 1.1
 2e4ae2c Initial commit
